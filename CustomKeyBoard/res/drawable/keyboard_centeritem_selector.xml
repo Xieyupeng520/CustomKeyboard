@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 触摸模式下(无焦点，有点击的时候)按下的时候 -->
+    <item android:state_pressed="true" android:state_focused="false" android:color="#f48f86" ></item>
+    <!-- 非触摸模式下(有焦点，有点击的时候)按下的时候 -->
+    <item android:state_pressed="true" android:state_focused="true" android:color="#f48f86" ></item>
+    <!-- 无焦点的时候 -->
+    <item android:state_focused="false" android:color="#ffffff"></item>
+    <!-- 有焦点的时候 -->
+    <item android:state_focused="true" android:color="#ff1e00"></item>
+</selector>
