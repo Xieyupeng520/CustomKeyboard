@@ -180,6 +180,7 @@ public final class CustomCircleKeyboardItem extends LinearLayout implements OnKe
     	        returnValue = true;
     	        break;
     	    case KeyEvent.KEYCODE_DPAD_CENTER:
+    	    case KeyEvent.KEYCODE_ENTER: //模拟器没有OK键，用ENTER键替换
     	        if (null != mDataBackup) {
     	            Log.v(TAG, "-----------------center:" + mDataBackup.getCenterText());
                 }

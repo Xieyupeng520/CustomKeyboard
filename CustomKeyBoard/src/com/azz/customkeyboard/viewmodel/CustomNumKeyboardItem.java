@@ -157,6 +157,7 @@ public final class CustomNumKeyboardItem extends LinearLayout implements OnKeyLi
         if (event.getAction() == KeyEvent.ACTION_UP) {
             switch (keyCode) {
             case KeyEvent.KEYCODE_DPAD_CENTER:
+            case KeyEvent.KEYCODE_ENTER: //模拟器没有OK键，用ENTER键替换
                 if (mOnKeyWorkListener != null) {
                     mOnKeyWorkListener.onDpadCenter(this);
                 }
