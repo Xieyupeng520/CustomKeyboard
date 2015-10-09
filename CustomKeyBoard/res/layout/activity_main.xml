@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:columnCount="3"
     tools:context=".MainActivity"
-    android:id="@+id/contentView" >
+    android:id="@+id/contentView"
+    android:background="#c0c0c0" >
     <com.azz.customkeyboard.viewmodel.CustomKeyboard
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
