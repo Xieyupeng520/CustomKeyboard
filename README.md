@@ -5,7 +5,8 @@
 自定义键盘最后达成效果图如下（背景为透明）：
 <br>![](https://raw.githubusercontent.com/Xieyupeng520/CustomKeyboard/master/CustomKeyBoard/assets/snapshot/无标题1.png)
 ![](https://github.com/Xieyupeng520/CustomKeyboard/blob/master/CustomKeyBoard/assets/snapshot/无标题2.png)
-
+<br><br>动态效果图（也是本项目下载运行后效果）
+<br>![](http://img.blog.csdn.net/20150627171611015)
 二、准备工作
 ---
 1.将项目CustomKeyboard解压导入workspace，检查一下项目是否是lib类型
